@@ -7,8 +7,10 @@ public class Exercicio1
     /// </summary>
     /// <param name="nome"></param>
     /// <returns></returns>
-    public string exibeMensagem(string nome)
+    public string exibeMensagem()
     {
+        string nome = "";
+
         do
         {
             // Limpa a tela
