@@ -21,7 +21,7 @@ public class Exercicio1
             nome = Console.ReadLine();
 
             //Verifica se o nome digitado é nulo ou vazio
-        } while (nome == null || nome.Trim() == "");
+        } while (String.IsNullOrWhiteSpace(nome));
 
         return String.Concat("Olá, ", nome, "! Seja bem vindo!");
     }
