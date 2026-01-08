@@ -18,5 +18,14 @@ class Program
         Console.WriteLine("****** Fim do Exercicio 2 ****** \n");
 
         #endregion
+        
+
+        #region Exercicio 03       
+
+        Exercicio3 exercicio3 = new Exercicio3();
+        exercicio3.realizaCalculos();
+        Console.WriteLine("****** Fim do Exercicio 3 ****** \n");
+
+        #endregion
     }
 }
