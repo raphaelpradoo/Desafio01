@@ -7,5 +7,22 @@ public class Exercicio1
     /// </summary>
     /// <param name="nome"></param>
     /// <returns></returns>
-    public string exibeMensagem(string nome) => String.Concat("Olá, ", nome, "! Seja bem vindo!");
+    public string exibeMensagem(string nome)
+    {
+        do
+        {
+            // Limpa a tela
+            Console.Clear();
+            
+            // Exibe uma mensagem ao usuário
+            Console.WriteLine("Exercicio 1 - Qual seu nome ?");
+            
+            // Recebe o nome digitato pelo usuário
+            nome = Console.ReadLine();
+
+            //Verifica se o nome digitado é nulo ou vazio
+        } while (nome == null || nome.Trim() == "");
+
+        return String.Concat("Olá, ", nome, "! Seja bem vindo!");
+    }
 }
