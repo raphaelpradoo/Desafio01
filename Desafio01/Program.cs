@@ -19,12 +19,35 @@ class Program
 
         #endregion
         
-
         #region Exercicio 03       
 
         Exercicio3 exercicio3 = new Exercicio3();
         exercicio3.realizaCalculos();
         Console.WriteLine("****** Fim do Exercicio 3 ****** \n");
+
+        #endregion
+        
+        #region Exercicio 04       
+
+        Exercicio4 exercicio4 = new Exercicio4();
+        Console.WriteLine(exercicio4.contaCaracteres());
+        Console.WriteLine("****** Fim do Exercicio 4 ****** \n");
+
+        #endregion
+        
+        #region Exercicio 05       
+
+        Exercicio5 exercicio5 = new Exercicio5();
+        Console.WriteLine(exercicio5.placaDoVeiculo());
+        Console.WriteLine("****** Fim do Exercicio 5 ****** \n");
+
+        #endregion
+        
+        #region Exercicio 06       
+
+        Exercicio6 exercicio6 = new Exercicio6();
+        exercicio6.exibeDatas();
+        Console.WriteLine("****** Fim do Exercicio 6 ****** \n");
 
         #endregion
     }
